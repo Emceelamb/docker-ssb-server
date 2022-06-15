@@ -15,4 +15,9 @@ The ssb data files are mounted as volume in `ssb/`, and will save on first run.
 docker-compose up
 ```
 
+## Post setup
+You can run commands in the running container using `docker exec`
 
+Examples:
+- `docker exec -it <container id> ssb-server whoami`
+- `docker exec -it <container id> ssb-server invite.create 1`

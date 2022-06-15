@@ -1,1 +1,6 @@
-.ssb/*
+ssb/blobs_push/
+ssb/db/
+ssb/flume/
+ssb/manifest.json
+ssb/ooo/
+ssb/secret
