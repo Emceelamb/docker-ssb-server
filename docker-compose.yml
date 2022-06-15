@@ -9,4 +9,4 @@ services:
     command: "bash -c 'ssb-server start --host 0.0.0.0'"
     volumes: 
       - ./config:/code/.ssb
-      - .ssb:/root/.ssb/
+      - ./ssb:/root/.ssb/
