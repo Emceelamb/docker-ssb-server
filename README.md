@@ -6,7 +6,7 @@ The image mostly follows the setup instructions described in [ssb-server](https:
 
 The [ssb configurations](https://github.com/ssbc/ssb-config) are mounted in `config/config`.
 
-The ssb data files are mounted in a volume in `.ssb/`, and will save on first run.
+The ssb data files are mounted as volume in `ssb/`, and will save on first run.
 
 ## Start up
 0. Clone repository
