@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ssb-server:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: ssb-server
+    command: "bash -c 'ssb-server start --host 0.0.0.0'"
+    volumes: 
+      - ./config:/code/.ssb
+      - .ssb:/root/.ssb/
