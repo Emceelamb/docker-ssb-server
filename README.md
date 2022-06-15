@@ -1,6 +1,6 @@
 # Docker Secure Scuttlebutt
 
-This is a experimental Dockerized instance of Secure Scuttlebutt (SSB). Still experimenting with ssb! 
+This is a experimental Dockerized instance of [Secure Scuttlebutt (SSB)](https://scuttlebutt.nz/). Still experimenting with ssb! 
 
 The image mostly follows the setup instructions described in [ssb-server](https://github.com/ssbc/ssb-server/).
 
